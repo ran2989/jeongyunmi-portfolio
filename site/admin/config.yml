@@ -49,8 +49,39 @@ collections:
         widget: list
         required: false
         summary: "{{fields.role}}: {{fields.name}}"
+        hint: "이름을 비워 둔 역할은 사이트에 표시되지 않습니다."
+        # New posts start with the usual shoot credits; Makeup is pre-filled.
+        default:
+          - { role: Magazine, name: "" }
+          - { role: Photographer, name: "" }
+          - { role: Stylist, name: "" }
+          - { role: Hair, name: "" }
+          - { role: Makeup, name: Jeong Yun Mi }
+          - { role: Model, name: "" }
         fields:
-          - { label: 역할, name: role, widget: string, hint: "예: Photographer, Stylist, Hair, Model" }
+          - label: 역할
+            name: role
+            widget: select
+            options:
+              - Magazine
+              - Brand
+              - Client
+              - Photographer
+              - Stylist
+              - Hair
+              - Makeup
+              - Model
+              - Celebrity
+              - Creative Director
+              - Art Director
+              - Fashion Editor
+              - Beauty Editor
+              - Editor
+              - Set Design
+              - Nails
+              - Videographer
+              - Agency
+              - Assistant
           - { label: 이름, name: name, widget: string, required: false }
       - { label: 태그, name: tags, widget: list, required: false, hint: "쉼표로 구분 (예: Elle Korea, Bottega Veneta)" }
       - { label: 인스타그램 게시물 링크, name: instagram, widget: string, required: false, hint: "예: https://www.instagram.com/p/XXXX/" }
