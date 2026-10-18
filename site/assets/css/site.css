@@ -1,0 +1,152 @@
+/* Page layer for the Jeong Yun Mi portfolio — built on nocturne.css tokens. */
+
+/* Fashion-magazine type: a Didone display for headings, Pretendard for text. */
+:root {
+  --font-heading: "Bodoni Moda", "Bodoni 72", Didot, Georgia, serif;
+  --font-body: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+html { background: var(--color-bg); }
+body { min-height: 100vh; display: flex; flex-direction: column; }
+main { flex: 1; }
+a { color: var(--color-accent-300); text-decoration: none; }
+a:hover { color: var(--color-accent-200); }
+
+.page-glow {
+  background:
+    radial-gradient(1000px 600px at 85% -120px, color-mix(in srgb, var(--color-accent-900) 75%, transparent), transparent 60%),
+    var(--color-bg);
+}
+
+.wrap { padding-inline: 56px; }
+
+/* — header — */
+.nav { padding-block: var(--space-3); gap: calc(var(--space-4) + 5pt); }
+.nav-brand { letter-spacing: 0.14em; color: var(--color-text); }
+.nav a.nav-brand:hover { color: var(--color-text); }
+
+/* — home: About with one main photo — */
+.landing {
+  padding-top: 72px; padding-bottom: 72px; scroll-margin-top: 24px;
+  display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 56px; align-items: center;
+}
+.landing-text { min-width: 0; display: flex; flex-direction: column; gap: 20px; }
+.landing h1 {
+  margin: 0; font-size: clamp(44px, 5.6vw, 76px); line-height: 1.05; letter-spacing: -0.02em;
+  color: var(--color-text); text-wrap: balance;
+}
+.landing p { margin: 0; max-width: 52ch; font-size: 15px; line-height: 1.75; color: var(--color-neutral-200); }
+.landing p.lead { font-size: 17px; color: var(--color-text); }
+.landing-photo { min-width: 0; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.landing .actions { padding-top: 8px; }
+
+.contact { padding-top: 56px; padding-bottom: 72px; display: flex; flex-direction: column; gap: 14px; scroll-margin-top: 24px; }
+.contact h2 { margin: 0; font-size: 28px; color: var(--color-text); }
+.contact p { margin: 0; max-width: 52ch; font-size: 15px; line-height: 1.7; color: var(--color-neutral-200); }
+
+/* — portfolio page head — */
+.page-head { padding-top: 72px; padding-bottom: 32px; display: flex; flex-direction: column; gap: 14px; }
+.page-head h1 { margin: 0; font-size: clamp(40px, 5vw, 64px); line-height: 1.05; letter-spacing: -0.02em; color: var(--color-text); }
+.page-head p { margin: 0; max-width: 52ch; font-size: 15px; line-height: 1.7; color: var(--color-neutral-200); }
+
+/* — filters — */
+.filters { padding-bottom: 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.filters button.tag { font: inherit; font-size: 11px; background: transparent; cursor: pointer; }
+.filters button.tag:hover { background: color-mix(in srgb, var(--color-accent) 12%, transparent); }
+.filters button.tag[aria-pressed='true'] { background: var(--color-accent-800); color: var(--color-accent-100); }
+
+/* — image placeholder (mirrors the prototype's empty image slot) — */
+.media { position: relative; overflow: hidden; background: rgba(127,127,127,.08); }
+.media.rounded { border-radius: 8px; }
+.media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.media .ph {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  padding: 12px; text-align: center; font-size: 12px; color: var(--color-neutral-500);
+}
+.r-4-5 { aspect-ratio: 4 / 5; }
+.r-3-4 { aspect-ratio: 3 / 4; }
+.r-3-2 { aspect-ratio: 3 / 2; }
+
+/* — post grid — */
+.grid { padding-bottom: 72px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 24px; }
+.card-post { display: flex; flex-direction: column; gap: 14px; color: var(--color-text); }
+.card-post:hover { color: var(--color-text); }
+.card-post .media img { transition: transform .4s ease; }
+.card-post:hover .media img { transform: scale(1.03); }
+.card-post .meta { display: flex; flex-direction: column; gap: 6px; }
+.kicker { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-300); }
+.card-post .title { font-size: 17px; font-weight: 500; line-height: 1.4; }
+.card-post:hover .title { color: var(--color-accent-200); }
+.empty { grid-column: 1 / -1; color: var(--color-neutral-400); font-size: 15px; }
+
+/* — footer — */
+.site-footer {
+  padding-block: 28px; display: flex; justify-content: space-between; gap: 16px;
+  font-size: 13px; color: var(--color-neutral-400); border-top: 1px solid var(--color-divider);
+}
+.site-footer a { color: inherit; }
+.site-footer a:hover { color: var(--color-accent-300); }
+
+/* — post detail (1b) — */
+.article { max-width: 880px; margin: 0 auto; padding-top: 72px; display: flex; flex-direction: column; gap: 40px; }
+.article-head { display: flex; flex-direction: column; gap: 16px; }
+.back { font-size: 13px; color: var(--color-neutral-300); align-self: flex-start; }
+.back:hover { color: var(--color-accent-300); }
+.article h1 { margin: 0; font-size: 48px; line-height: 1.12; letter-spacing: -0.015em; color: var(--color-text); }
+.credits {
+  margin: 0; display: grid; grid-template-columns: 140px 1fr; gap: 10px 24px;
+  font-size: 15px; line-height: 1.5; padding: 24px 0;
+  border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);
+}
+.credits dt { color: var(--color-neutral-400); }
+.credits dd { margin: 0; color: var(--color-text); }
+.gallery { display: flex; flex-direction: column; gap: 16px; }
+.gallery .pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tags:empty { display: none; }
+.pager {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px;
+  padding: 28px 0; border-top: 1px solid var(--color-divider);
+}
+.pager a { display: flex; flex-direction: column; gap: 6px; color: var(--color-text); }
+.pager a:hover .t { color: var(--color-accent-200); }
+.pager .next { align-items: flex-end; text-align: right; grid-column: 2; }
+.pager .l { font-size: 12px; color: var(--color-neutral-400); }
+.pager .t { font-size: 16px; font-weight: 500; }
+
+.recent { padding-top: 56px; padding-bottom: 72px; display: flex; flex-direction: column; gap: 24px; }
+.recent-head { display: flex; justify-content: space-between; align-items: baseline; }
+.recent h2 { margin: 0; font-size: 22px; color: var(--color-text); }
+.recent-head a { font-size: 13px; }
+.recent-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.recent-grid .card-post { gap: 12px; }
+.recent-grid .title { font-size: 15px; }
+
+/* — responsive — */
+@media (max-width: 1024px) {
+  .wrap { padding-inline: 32px; }
+  .landing { gap: 40px; }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .article { padding-inline: 32px; }
+}
+@media (max-width: 640px) {
+  .wrap { padding-inline: 16px; }
+  .nav { flex-wrap: wrap; row-gap: 4px; }
+  .nav-brand { flex-basis: 100%; }
+  .landing { grid-template-columns: minmax(0, 1fr); padding-top: 40px; padding-bottom: 48px; gap: 32px; }
+  .landing h1 { font-size: 44px; }
+  .page-head { padding-top: 40px; padding-bottom: 24px; }
+  .contact { padding-top: 32px; padding-bottom: 48px; }
+  .grid { grid-template-columns: minmax(0, 1fr); gap: 32px; padding-bottom: 48px; }
+  .site-footer { flex-direction: column; }
+  .article { padding-inline: 16px; padding-top: 40px; gap: 32px; }
+  .article h1 { font-size: 32px; }
+  .credits { grid-template-columns: 110px 1fr; }
+  .gallery .pair { gap: 8px; }
+  .gallery { gap: 8px; }
+  .pager { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .pager .next { grid-column: 1; }
+  .recent { padding-top: 40px; padding-bottom: 48px; }
+  .recent-grid { grid-template-columns: minmax(0, 1fr); }
+}

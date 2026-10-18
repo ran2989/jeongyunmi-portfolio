@@ -1,0 +1,75 @@
+# Decap CMS — the admin page at /admin.
+# Yunmi signs in with a GitHub account that has write access to the repository.
+# Every save commits to GitHub, and Netlify redeploys the site in about a minute.
+backend:
+  name: github
+  repo: ran2989/jeongyunmi-portfolio
+  branch: main
+
+locale: ko
+site_url: /
+display_url: /
+logo_url: ""
+
+media_folder: site/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: posts
+    label: 포트폴리오
+    label_singular: 포트폴리오 게시물
+    description: 게시물마다 사진과 크레딧을 등록합니다. 날짜가 최신인 게시물이 맨 앞에 나옵니다.
+    folder: site/content/posts
+    extension: json
+    format: json
+    create: true
+    delete: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: title
+    summary: "{{date | date('YYYY.MM.DD')}} · {{title}}"
+    sortable_fields: [date, title, category]
+    fields:
+      - { label: 제목, name: title, widget: string, hint: "예: ELLE KOREA October 2026 with Bottega Veneta" }
+      - { label: 날짜, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY.MM.DD", time_format: false }
+      - label: 카테고리
+        name: category
+        widget: select
+        # Keep in step with CATEGORIES in scripts/build-data.mjs.
+        options: [Editorial, Beauty, Celebrity, Advertising]
+        default: Editorial
+      - { label: 대표 사진 (목록에 보이는 커버), name: cover, widget: image, required: false, hint: "비워 두면 아래 사진 중 첫 장이 커버가 됩니다." }
+      - label: 사진
+        name: images
+        widget: list
+        required: false
+        hint: "올린 순서대로 상세 페이지에 나옵니다. 4번째 사진은 가로로 넓게 보입니다."
+        field: { label: 사진, name: image, widget: image }
+      - label: 크레딧
+        name: credits
+        widget: list
+        required: false
+        summary: "{{fields.role}}: {{fields.name}}"
+        fields:
+          - { label: 역할, name: role, widget: string, hint: "예: Photographer, Stylist, Hair, Model" }
+          - { label: 이름, name: name, widget: string, required: false }
+      - { label: 태그, name: tags, widget: list, required: false, hint: "쉼표로 구분 (예: Elle Korea, Bottega Veneta)" }
+      - { label: 인스타그램 게시물 링크, name: instagram, widget: string, required: false, hint: "예: https://www.instagram.com/p/XXXX/" }
+
+  - name: settings
+    label: 사이트 설정
+    delete: false
+    editor: { preview: false }
+    files:
+      - name: site
+        label: 메인 화면 · 소개 · 연락처
+        file: site/content/site.json
+        fields:
+          - { label: 메인 사진, name: heroImage, widget: image, required: false, hint: "첫 화면 오른쪽에 크게 보이는 사진입니다. 세로 4:5 비율이 잘 맞습니다." }
+          - { label: 한 줄 소개, name: tagline, widget: string }
+          - { label: About 소개글, name: about, widget: text }
+          - { label: 포트폴리오 페이지 소개, name: portfolioIntro, widget: string }
+          - { label: 연락용 이메일, name: email, widget: string, required: false, hint: "비워 두면 이메일 버튼이 숨겨집니다." }
+          - { label: 인스타그램 아이디, name: instagramHandle, widget: string }
+          - { label: 인스타그램 주소, name: instagramUrl, widget: string }
+          - { label: 이름, name: name, widget: hidden }
+          - { label: 로고, name: brand, widget: hidden }

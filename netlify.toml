@@ -1,0 +1,6 @@
+[build]
+  publish = "site"
+  command = "node scripts/build-data.mjs"
+
+[build.environment]
+  NODE_VERSION = "20"
