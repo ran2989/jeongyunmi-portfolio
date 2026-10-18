@@ -18,7 +18,7 @@ collections:
   - name: posts
     label: 포트폴리오
     label_singular: 포트폴리오 게시물
-    description: 게시물마다 사진과 크레딧을 등록합니다. 날짜가 최신인 게시물이 맨 앞에 나옵니다.
+    description: 게시물마다 사진과 크레딧을 등록합니다. 순서는 사이트 설정 → 포트폴리오 순서에서 정하고, 나머지는 최신 날짜순입니다.
     folder: site/content/posts
     extension: json
     format: json
@@ -27,7 +27,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     identifier_field: title
     summary: "{{date | date('YYYY.MM.DD')}} · {{title}}"
-    sortable_fields: [order, date, title, category]
+    sortable_fields: [date, title, category]
     fields:
       - { label: 제목, name: title, widget: string, hint: "예: ELLE KOREA October 2026 with Bottega Veneta" }
       - { label: 날짜, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY.MM.DD", time_format: false }
@@ -37,7 +37,6 @@ collections:
         # Keep in step with CATEGORIES in scripts/build-data.mjs.
         options: [Editorial, Beauty, Celebrity, Advertising]
         default: Editorial
-      - { label: 순서 번호, name: order, widget: number, value_type: int, min: 1, required: false, hint: "비워 두면 날짜순입니다. 번호를 넣은 게시물은 날짜와 상관없이 맨 앞에 1, 2, 3… 순서로 나옵니다." }
       - { label: 대표 사진 (목록에 보이는 커버), name: cover, widget: image, required: false, hint: "비워 두면 아래 사진 중 첫 장이 커버가 됩니다." }
       - label: 사진
         name: images
@@ -105,3 +104,20 @@ collections:
           - { label: 인스타그램 주소, name: instagramUrl, widget: string }
           - { label: 이름, name: name, widget: hidden }
           - { label: 로고, name: brand, widget: hidden }
+      - name: order
+        label: 포트폴리오 순서
+        file: site/content/order.json
+        fields:
+          - label: 앞에 보일 게시물 (위에서부터 순서대로)
+            name: featured
+            widget: list
+            required: false
+            hint: "추가를 눌러 게시물을 고르고, 왼쪽 손잡이를 끌어 순서를 바꿉니다. 여기 없는 게시물은 그 뒤에 최신 날짜순으로 나옵니다."
+            field:
+              label: 게시물
+              name: post
+              widget: relation
+              collection: posts
+              value_field: "{{slug}}"
+              search_fields: [title]
+              display_fields: [title, date]
