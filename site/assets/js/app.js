@@ -103,13 +103,15 @@
   }
 
   // Gallery rhythm from the 1b mock: 4:5 · (3:4 + 3:4) · 3:2 · 4:5, then 4:5.
+  // Only real photos are laid out; a lone leftover in a pair spans the full width.
   function gallery(images) {
-    const slots = Math.max(images.length, 5);
-    const at = (i, ratio, label) => media(images[i], ratio, label, { alt: '' });
-    let html = at(0, 'r-4-5', 'Image 01');
-    html += `<div class="pair">${at(1, 'r-3-4', '02')}${at(2, 'r-3-4', '03')}</div>`;
-    html += at(3, 'r-3-2', 'Image 04 (landscape)');
-    for (let i = 4; i < slots; i++) html += at(i, 'r-4-5', 'Image ' + String(i + 1).padStart(2, '0'));
+    if (!images.length) return media('', 'r-4-5', 'Image 01');
+    const at = (i, ratio) => media(images[i], ratio, '', { alt: '' });
+    let html = at(0, 'r-4-5');
+    if (images.length > 2) html += `<div class="pair">${at(1, 'r-3-4')}${at(2, 'r-3-4')}</div>`;
+    else if (images[1]) html += at(1, 'r-4-5');
+    if (images[3]) html += at(3, 'r-3-2');
+    for (let i = 4; i < images.length; i++) html += at(i, 'r-4-5');
     return html;
   }
 
@@ -120,9 +122,12 @@
 
     $('[data-kicker]').textContent = `${p.category} · ${p.date}`;
     $('[data-title]').textContent = p.title;
-    $('[data-credits]').innerHTML = p.credits
-      .map((c) => `<dt>${esc(c.role)}</dt><dd>${esc(c.name || '—')}</dd>`).join('');
-    $('[data-gallery]').innerHTML = gallery(p.images);
+    const credits = p.credits.filter((c) => c.name);
+    $('[data-credits]').hidden = !credits.length;
+    $('[data-credits]').innerHTML = credits
+      .map((c) => `<dt>${esc(c.role)}</dt><dd>${esc(c.name)}</dd>`).join('');
+    // A post with only a cover still shows that photo on its page.
+    $('[data-gallery]').innerHTML = gallery(p.images.length ? p.images : [p.cover].filter(Boolean));
 
     $('[data-tags]').innerHTML =
       p.tags.map((t) => `<span class="tag tag-neutral">${esc(t)}</span>`).join('') +
@@ -135,8 +140,9 @@
       (older ? `<a href="${ROUTES.post(older.id)}"><span class="l">← Previous Post</span><span class="t">${esc(older.title)}</span></a>` : '') +
       (newer ? `<a class="next" href="${ROUTES.post(newer.id)}"><span class="l">Next Post →</span><span class="t">${esc(newer.title)}</span></a>` : '');
 
-    $('[data-recent]').innerHTML = POSTS
-      .filter((q) => q !== p).slice(0, 3)
+    const recent = POSTS.filter((q) => q !== p).slice(0, 3);
+    $('[data-recent]').closest('.recent').hidden = !recent.length;
+    $('[data-recent]').innerHTML = recent
       .map((q) => card(q, { ratio: 'r-3-2', label: 'Cover', meta: false })).join('');
   }
 
