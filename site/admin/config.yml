@@ -28,7 +28,10 @@ collections:
     identifier_field: title
     summary: "{{date | date('YYYY.MM.DD')}} · {{title}}"
     sortable_fields: [date, title, category]
+    view_filters:
+      - { label: 임시저장만 보기, field: draft, pattern: true }
     fields:
+      - { label: 임시저장 (사이트에 숨김), name: draft, widget: boolean, default: false, required: false, hint: "켜고 게시하면 내용은 저장되지만 사이트에는 보이지 않습니다. 완성되면 끄고 다시 게시하세요." }
       - { label: 제목, name: title, widget: string, hint: "예: ELLE KOREA October 2026 with Bottega Veneta" }
       - { label: 날짜, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY.MM.DD", time_format: false }
       - label: 카테고리

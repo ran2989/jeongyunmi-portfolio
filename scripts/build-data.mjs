@@ -29,8 +29,10 @@ const fmtDate = (iso) => {
 
 const posts = fs.readdirSync(postsDir)
   .filter((f) => f.endsWith('.json'))
-  .map((f) => {
-    const p = read(path.join(postsDir, f));
+  .map((f) => ({ f, p: read(path.join(postsDir, f)) }))
+  // 임시저장 posts stay in the repository but off the site.
+  .filter(({ p }) => p.draft !== true)
+  .map(({ f, p }) => {
     return {
       id: f.replace(/\.json$/, ''),
       sortKey: String(p.date || ''),
