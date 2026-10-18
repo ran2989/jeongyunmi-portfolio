@@ -27,7 +27,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     identifier_field: title
     summary: "{{date | date('YYYY.MM.DD')}} · {{title}}"
-    sortable_fields: [date, title, category, pinned]
+    sortable_fields: [order, date, title, category]
     fields:
       - { label: 제목, name: title, widget: string, hint: "예: ELLE KOREA October 2026 with Bottega Veneta" }
       - { label: 날짜, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY.MM.DD", time_format: false }
@@ -37,7 +37,7 @@ collections:
         # Keep in step with CATEGORIES in scripts/build-data.mjs.
         options: [Editorial, Beauty, Celebrity, Advertising]
         default: Editorial
-      - { label: 맨 앞에 고정, name: pinned, widget: boolean, default: false, required: false, hint: "켜면 날짜와 상관없이 포트폴리오 맨 앞에 나옵니다. 여러 개를 고정하면 그중에서는 날짜순입니다." }
+      - { label: 순서 번호, name: order, widget: number, value_type: int, min: 1, required: false, hint: "비워 두면 날짜순입니다. 번호를 넣은 게시물은 날짜와 상관없이 맨 앞에 1, 2, 3… 순서로 나옵니다." }
       - { label: 대표 사진 (목록에 보이는 커버), name: cover, widget: image, required: false, hint: "비워 두면 아래 사진 중 첫 장이 커버가 됩니다." }
       - label: 사진
         name: images
