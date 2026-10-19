@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Advertising",
+  "credits": [
+    {
+      "role": "Agency",
+      "name": "Boh.project"
+    },
+    {
+      "role": "Photographer",
+      "name": "Alasdair Mclellan"
+    },
+    {
+      "role": "Hair",
+      "name": "Oh ju yeop"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Nails",
+      "name": "Kim seoul"
+    }
+  ],
+  "title": "Calvinklein x Jungkook global campaigns",
+  "date": "2026-05-20",
+  "cover": "/images/uploads/img_1622-261020-021912-9m1n.jpg",
+  "images": [
+    "/images/uploads/img_1623-261020-021934-d32u.jpg",
+    "/images/uploads/img_1625-261020-021948-jfh9.jpg"
+  ]
+}
