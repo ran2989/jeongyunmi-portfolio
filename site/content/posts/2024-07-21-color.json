@@ -1,0 +1,25 @@
+{
+  "draft": false,
+  "category": "Beauty",
+  "credits": [
+    {
+      "role": "Photographer",
+      "name": "Kim dong june"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/3472590576201040716_20240802182552568-261020-024416-zgt2.jpg",
+  "images": [
+    "/images/uploads/bc1d9dd7-0411-4daf-81e8-4679826cb913-261020-024449-lh5o.jpg",
+    "/images/uploads/3472590576200899148_20240802182550897-261020-024506-x60q.jpg"
+  ],
+  "title": "Color",
+  "date": "2024-07-22"
+}
