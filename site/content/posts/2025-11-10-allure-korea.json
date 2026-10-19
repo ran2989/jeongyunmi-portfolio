@@ -1,6 +1,29 @@
 {
   "category": "Editorial",
-  "title": "allure korea",
-  "date": "2025-11-11",
-  "cover": "/images/uploads/main-allure.jpg"
+  "title": "Allure Korea",
+  "date": "2025-06-01",
+  "cover": "/images/uploads/main-allure.jpg",
+  "images": [
+    "/images/uploads/remix-me-myself3.jpg",
+    "/images/uploads/remix-me-myself5.jpg",
+    "/images/uploads/remix-me-myself1.jpg"
+  ],
+  "credits": [
+    {
+      "role": "Fashion Editor",
+      "name": "Choi jung yun"
+    },
+    {
+      "role": "Photographer",
+      "name": "Choi eun mi"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Model",
+      "name": "Kaya"
+    }
+  ]
 }
