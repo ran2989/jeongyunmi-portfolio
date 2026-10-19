@@ -3,24 +3,20 @@
   "category": "Celebrity",
   "credits": [
     {
-      "role": "Photographer",
-      "name": ""
+      "role": "Magazine",
+      "name": "The star"
     },
     {
-      "role": "Stylist",
-      "name": ""
+      "role": "Photographer",
+      "name": "Kim tae gu"
     },
     {
       "role": "Hair",
-      "name": ""
+      "name": "Kwon do yeon"
     },
     {
       "role": "Makeup",
       "name": "Jeong Yun Mi"
-    },
-    {
-      "role": "Model",
-      "name": ""
     }
   ],
   "cover": "/images/uploads/315a3e2d-7939-4e0e-a82e-c609132d0286-261019-222417-d8ew.jpg",
