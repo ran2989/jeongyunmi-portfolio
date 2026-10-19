@@ -1,0 +1,37 @@
+{
+  "draft": false,
+  "category": "Celebrity",
+  "credits": [
+    {
+      "role": "Magazine",
+      "name": "Dazed Korea"
+    },
+    {
+      "role": "Editor",
+      "name": "Shin hee sook"
+    },
+    {
+      "role": "Photographer",
+      "name": "Lee jae don"
+    },
+    {
+      "role": "Stylist",
+      "name": "Kim noo ri"
+    },
+    {
+      "role": "Hair",
+      "name": "Choi go"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/img_9351-261020-025817-bu24.jpg",
+  "title": "Pyo ye jin",
+  "date": "2026-03-25",
+  "images": [
+    "/images/uploads/img_9348-261020-025920-4iwd.jpg",
+    "/images/uploads/img_9349-261020-025933-c8rc.jpg"
+  ]
+}
