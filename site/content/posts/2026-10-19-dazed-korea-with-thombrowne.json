@@ -1,0 +1,34 @@
+{
+  "draft": false,
+  "category": "Editorial",
+  "credits": [
+    {
+      "role": "Fashion Editor",
+      "name": "Park yeon je"
+    },
+    {
+      "role": "Photographer",
+      "name": "Kim sung gun"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Kim byeol, bojvck"
+    }
+  ],
+  "cover": "/images/uploads/img_9660-261020-020242-w7v6.jpg",
+  "title": "Dazed korea with Thombrowne",
+  "date": "2026-10-20",
+  "images": [
+    "/images/uploads/img_9661-261020-020350-gw9r.jpg",
+    "/images/uploads/img_9662-261020-020400-qthc.jpg",
+    "/images/uploads/img_9659-261020-020411-bppx.jpg"
+  ]
+}
