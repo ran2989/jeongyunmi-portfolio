@@ -1,0 +1,37 @@
+{
+  "draft": false,
+  "category": "Advertising",
+  "credits": [
+    {
+      "role": "Magazine",
+      "name": "Allure"
+    },
+    {
+      "role": "Beauty Editor",
+      "name": "Jo moon ju"
+    },
+    {
+      "role": "Photographer",
+      "name": "Kim dong june"
+    },
+    {
+      "role": "Hair",
+      "name": "Lee bong ju"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Lim bora"
+    }
+  ],
+  "cover": "/images/uploads/img_7539-261020-023714-t7eh.jpg",
+  "title": "Makeupforever",
+  "date": "2025-06-20",
+  "images": [
+    "/images/uploads/img_7538-261020-023904-3xzp.jpg",
+    "/images/uploads/img_7540-261020-023925-rclf.jpg"
+  ]
+}
