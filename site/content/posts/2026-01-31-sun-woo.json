@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Celebrity",
+  "credits": [
+    {
+      "role": "Magazine",
+      "name": "Singles"
+    },
+    {
+      "role": "Editor",
+      "name": "Kim mi jin"
+    },
+    {
+      "role": "Photographer",
+      "name": "Jang duk hwa"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/img_6360-261019-231906-1tec.jpg",
+  "images": [
+    "/images/uploads/img_6351-261019-231923-alhi.jpg",
+    "/images/uploads/img_6356-261019-231937-glh5.jpg"
+  ],
+  "title": "sun woo",
+  "date": "2026-02-01"
+}
