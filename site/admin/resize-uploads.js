@@ -27,18 +27,22 @@
 
   // Plain ASCII file names: phones send Korean names in decomposed Unicode (NFD),
   // which can stop the photo's link from matching the file on the server.
-  const jpegName = (name) => {
-    let base = name.replace(/\.[^.]+$/, '').normalize('NFC').toLowerCase()
-      .replace(/[^a-z0-9_-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60);
-    if (!/[a-z]{2}|\d{3}/.test(base)) {
-      const t = new Date();
-      const pad = (n) => String(n).padStart(2, '0');
-      base = `photo-${t.getFullYear()}${pad(t.getMonth() + 1)}${pad(t.getDate())}-${pad(t.getHours())}${pad(t.getMinutes())}${pad(t.getSeconds())}-${Math.random().toString(36).slice(2, 6)}`;
-    }
-    return `${base}.jpg`;
+  // A same-named upload would replace a photo another post already uses
+  // (phones reuse names like IMG_8980), so every name gets a unique suffix.
+  const uniqueSuffix = () => {
+    const t = new Date();
+    const pad = (n) => String(n).padStart(2, '0');
+    return `${String(t.getFullYear()).slice(2)}${pad(t.getMonth() + 1)}${pad(t.getDate())}-${pad(t.getHours())}${pad(t.getMinutes())}${pad(t.getSeconds())}-${Math.random().toString(36).slice(2, 6)}`;
   };
-  const withName = (file) => (file.name === jpegName(file.name) ? file
-    : new File([file], jpegName(file.name), { type: file.type, lastModified: file.lastModified }));
+  const cleanBase = (name) => {
+    const base = name.replace(/\.[^.]+$/, '').normalize('NFC').toLowerCase()
+      .replace(/[^a-z0-9_-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 40);
+    return /[a-z]{2}|\d{3}/.test(base) ? base : 'photo';
+  };
+  const jpegName = (name) => `${cleanBase(name)}.jpg`;
+  // Applied once, as the last step before Decap receives the file.
+  const withName = (file) => new File([file], `${cleanBase(file.name)}-${uniqueSuffix()}.jpg`,
+    { type: file.type, lastModified: file.lastModified });
   const toJpeg = (canvas, name) => new Promise((resolve) => canvas.toBlob(
     (blob) => resolve(blob && new File([blob], jpegName(name), { type: 'image/jpeg', lastModified: Date.now() })),
     'image/jpeg', QUALITY,
