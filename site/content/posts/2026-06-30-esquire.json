@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Editorial",
+  "credits": [
+    {
+      "role": "Fashion Editor",
+      "name": "Park min jin"
+    },
+    {
+      "role": "Photographer",
+      "name": "Oh sung jae"
+    },
+    {
+      "role": "Hair",
+      "name": "Jang yun na"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Jang woo hyeong, joji"
+    }
+  ],
+  "cover": "/images/uploads/photo-261019-224455-hvf9.jpg",
+  "title": "Esquire",
+  "date": "2026-07-01",
+  "images": [
+    "/images/uploads/photo-261019-224605-3mlv.jpg",
+    "/images/uploads/photo-261019-224617-b3rk.jpg"
+  ]
+}
