@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Celebrity",
+  "credits": [
+    {
+      "role": "Magazine",
+      "name": "Dazed Korea"
+    },
+    {
+      "role": "Fashion Editor",
+      "name": "Keem hyo been"
+    },
+    {
+      "role": "Photographer",
+      "name": "Bang kyu hyung"
+    },
+    {
+      "role": "Hair",
+      "name": "Lee bong ju"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/img_5097-261019-223200-zymd.jpg",
+  "date": "2026-08-31",
+  "title": "Seo su min",
+  "images": [
+    "/images/uploads/img_5099-261019-223305-sb71.jpg",
+    "/images/uploads/img_5102-261019-223316-skbq.jpg"
+  ]
+}
