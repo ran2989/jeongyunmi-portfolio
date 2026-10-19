@@ -1,0 +1,29 @@
+{
+  "draft": false,
+  "category": "Advertising",
+  "credits": [
+    {
+      "role": "Photographer",
+      "name": "Park ju ri"
+    },
+    {
+      "role": "Stylist",
+      "name": "Team thy seoul"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "so an"
+    }
+  ],
+  "title": "Thy seoul",
+  "date": "2026-07-01",
+  "cover": "/images/uploads/img_4428-261019-224142-gwne.jpg"
+}
