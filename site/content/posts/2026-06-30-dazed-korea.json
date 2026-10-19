@@ -1,0 +1,25 @@
+{
+  "draft": false,
+  "category": "Beauty",
+  "credits": [
+    {
+      "role": "Photographer",
+      "name": "Shin sun hye"
+    },
+    {
+      "role": "Beauty Editor",
+      "name": "Park yeon je"
+    },
+    {
+      "role": "Hair",
+      "name": "Lee bong ju"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/img_3291-261019-224308-mark.jpg",
+  "date": "2026-07-01",
+  "title": "Dazed Korea"
+}
