@@ -1,0 +1,24 @@
+{
+  "category": "Advertising",
+  "credits": [
+    {
+      "role": "Photographer",
+      "name": "Kim tae min"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/에르흐스-에디토리얼-로고버전-final0156.jpg",
+  "images": [
+    "/images/uploads/에르흐스-에디토리얼-논로고-final0106.jpg",
+    "/images/uploads/에르흐스-메인-논로고버전02.jpg"
+  ],
+  "title": "Erkhes Campaign",
+  "date": "2026-10-01"
+}
