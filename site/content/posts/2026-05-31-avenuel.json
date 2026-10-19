@@ -1,0 +1,34 @@
+{
+  "draft": false,
+  "category": "Beauty",
+  "credits": [
+    {
+      "role": "Beauty Editor",
+      "name": "Lee young jin"
+    },
+    {
+      "role": "Photographer",
+      "name": "Oh sung jae"
+    },
+    {
+      "role": "Hair",
+      "name": "Park su jung"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "min young"
+    }
+  ],
+  "cover": "/images/uploads/img_1895-261019-225130-2ozk.jpg",
+  "title": "Avenuel",
+  "date": "2026-06-01",
+  "images": [
+    "/images/uploads/img_1891-261019-225310-cg5l.jpg",
+    "/images/uploads/img_1897-261019-225324-bxzc.jpg",
+    "/images/uploads/img_1896-261019-225337-u4cx.jpg"
+  ]
+}
