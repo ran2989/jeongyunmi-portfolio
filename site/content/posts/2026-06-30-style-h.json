@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Editorial",
+  "credits": [
+    {
+      "role": "Fashion Editor",
+      "name": "Lee moon ji"
+    },
+    {
+      "role": "Photographer",
+      "name": "An sang mi"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Bae yoon young"
+    }
+  ],
+  "title": "Style H",
+  "date": "2026-07-01",
+  "cover": "/images/uploads/img_3701-261019-223901-1ajr.jpg",
+  "images": [
+    "/images/uploads/img_3700-261019-223917-9v4g.jpg",
+    "/images/uploads/img_3698-261019-223930-40or.jpg"
+  ]
+}
