@@ -1,0 +1,35 @@
+{
+  "draft": false,
+  "category": "Editorial",
+  "credits": [
+    {
+      "role": "Fashion Editor",
+      "name": "Lee hye bin"
+    },
+    {
+      "role": "Photographer",
+      "name": "Yang joong san"
+    },
+    {
+      "role": "Hair",
+      "name": "Shin do young"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Kim do hyun"
+    }
+  ],
+  "cover": "/images/uploads/img_1729-261019-225547-g7b4.jpg",
+  "title": "Neighbor",
+  "date": "2026-06-01",
+  "images": [
+    "/images/uploads/img_1728-261019-225634-j1os.jpg",
+    "/images/uploads/img_1726-261019-225647-3g2r.jpg",
+    "/images/uploads/img_1727-261019-225700-u1ri.jpg",
+    "/images/uploads/img_1725-261019-225712-ykfk.jpg"
+  ]
+}
