@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Editorial",
+  "credits": [
+    {
+      "role": "Fashion Editor",
+      "name": "Kim ji won"
+    },
+    {
+      "role": "Photographer",
+      "name": "Min su ah"
+    },
+    {
+      "role": "Hair",
+      "name": "Lee bong ju"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Lee hye seung"
+    }
+  ],
+  "cover": "/images/uploads/img_7337.jpeg",
+  "images": [
+    "/images/uploads/img_7475.jpg",
+    "/images/uploads/img_7473.jpg"
+  ],
+  "title": "Harpersbazaar Korea",
+  "date": "2026-09-01"
+}
