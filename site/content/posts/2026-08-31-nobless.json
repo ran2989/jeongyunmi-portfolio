@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Editorial",
+  "credits": [
+    {
+      "role": "Magazine",
+      "name": "Nobless"
+    },
+    {
+      "role": "Fashion Editor",
+      "name": "Kim so jung"
+    },
+    {
+      "role": "Photographer",
+      "name": "Lee so jung"
+    },
+    {
+      "role": "Hair",
+      "name": "Lee hye jin"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/img_7045-261019-223537-ql17.jpg",
+  "images": [
+    "/images/uploads/img_7051-261019-223557-sesh.jpg",
+    "/images/uploads/img_7047-261019-223608-9m9c.jpg"
+  ],
+  "date": "2026-09-01",
+  "title": "Nobless"
+}
