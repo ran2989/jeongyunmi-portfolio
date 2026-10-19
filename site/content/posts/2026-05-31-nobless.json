@@ -1,0 +1,29 @@
+{
+  "draft": false,
+  "category": "Beauty",
+  "credits": [
+    {
+      "role": "Beauty Editor",
+      "name": "Joo hyo been"
+    },
+    {
+      "role": "Photographer",
+      "name": "Choi eun mi"
+    },
+    {
+      "role": "Hair",
+      "name": "Park su jung"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "date": "2026-06-01",
+  "title": "Nobless",
+  "cover": "/images/uploads/img_2221-261019-224906-cxah.jpg",
+  "images": [
+    "/images/uploads/img_2219-261019-224921-ca2v.jpg",
+    "/images/uploads/img_2220-261019-224932-izxb.jpg"
+  ]
+}
