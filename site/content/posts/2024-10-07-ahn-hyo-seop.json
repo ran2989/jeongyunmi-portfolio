@@ -1,0 +1,38 @@
+{
+  "draft": false,
+  "category": "Celebrity",
+  "credits": [
+    {
+      "role": "Magazine",
+      "name": "Maps"
+    },
+    {
+      "role": "Editor",
+      "name": "Oh min ji"
+    },
+    {
+      "role": "Photographer",
+      "name": "Kim yeong jun"
+    },
+    {
+      "role": "Stylist",
+      "name": "Jun jin oh"
+    },
+    {
+      "role": "Hair",
+      "name": "Lee enoc"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "title": "Ahn hyo seop",
+  "date": "2024-10-08",
+  "cover": "/images/uploads/img_4550-261020-022530-ptnk.jpg",
+  "images": [
+    "/images/uploads/img_4553-261020-022552-n688.jpg",
+    "/images/uploads/img_4546-261020-022609-ipdt.jpg",
+    "/images/uploads/img_4557-261020-022627-5zlk.jpg"
+  ]
+}
