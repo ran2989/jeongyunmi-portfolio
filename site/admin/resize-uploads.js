@@ -25,7 +25,20 @@
   const isPhoto = (file) => /^image\//.test(file.type) && !/svg|gif/.test(file.type)
     || /\.(heic|heif)$/i.test(file.name);
 
-  const jpegName = (name) => `${name.replace(/\.[^.]+$/, '') || 'photo'}.jpg`;
+  // Plain ASCII file names: phones send Korean names in decomposed Unicode (NFD),
+  // which can stop the photo's link from matching the file on the server.
+  const jpegName = (name) => {
+    let base = name.replace(/\.[^.]+$/, '').normalize('NFC').toLowerCase()
+      .replace(/[^a-z0-9_-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60);
+    if (!/[a-z]{2}|\d{3}/.test(base)) {
+      const t = new Date();
+      const pad = (n) => String(n).padStart(2, '0');
+      base = `photo-${t.getFullYear()}${pad(t.getMonth() + 1)}${pad(t.getDate())}-${pad(t.getHours())}${pad(t.getMinutes())}${pad(t.getSeconds())}-${Math.random().toString(36).slice(2, 6)}`;
+    }
+    return `${base}.jpg`;
+  };
+  const withName = (file) => (file.name === jpegName(file.name) ? file
+    : new File([file], jpegName(file.name), { type: file.type, lastModified: file.lastModified }));
   const toJpeg = (canvas, name) => new Promise((resolve) => canvas.toBlob(
     (blob) => resolve(blob && new File([blob], jpegName(name), { type: 'image/jpeg', lastModified: Date.now() })),
     'image/jpeg', QUALITY,
@@ -68,9 +81,10 @@
     .pc-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 16px; }
     .pc-head strong { font-size: 16px; font-weight: 600; }
     .pc-head small { display: block; color: #a9abb8; font-size: 12px; }
-    .pc-stage { flex: 1; min-height: 0; padding: 0 16px; }
-    .pc-box { width: 100%; height: 100%; }
-    .pc-box img { display: block; max-width: 100%; }
+    .pc-stage { position: relative; flex: 1; min-height: 0; overflow: hidden; }
+    /* Absolute so the cropper gets a fixed box: a tall photo must not push the buttons off screen. */
+    .pc-box { position: absolute; inset: 0 16px; }
+    .pc-box img { display: block; max-width: 100%; max-height: 100%; }
     .pc-ratios { display: flex; gap: 8px; overflow-x: auto; padding: 12px 16px 4px; }
     .pc-ratios button { flex: none; min-height: 40px; padding: 6px 12px; border-radius: 8px; border: 1px solid #4a4c5a;
       background: transparent; color: inherit; font: inherit; font-size: 13px; line-height: 1.2; }
@@ -162,7 +176,7 @@
       let ready = f;
       try { ready = await shrink(f); } catch (err) { /* upload the original */ }
       const cropped = await cropDialog(ready, i, files.length);
-      if (cropped) out.items.add(cropped);
+      if (cropped) out.items.add(withName(cropped));
     }
     if (!out.files.length) { input.value = ''; return; }
     input.files = out.files;

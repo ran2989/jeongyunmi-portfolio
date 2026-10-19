@@ -26,6 +26,8 @@ collections:
     delete: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     identifier_field: title
+    # The side preview only showed raw text and halved the form on phones.
+    editor: { preview: false }
     summary: "{{date | date('YYYY.MM.DD')}} · {{title}}"
     sortable_fields: [date, title, category]
     view_filters:

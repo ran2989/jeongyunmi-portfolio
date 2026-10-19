@@ -19,13 +19,140 @@ window.SITE = {
 };
 window.POSTS = [
   {
+    "id": "2026-10-31-the-handsome",
+    "category": "Advertising",
+    "date": "2026. 11. 01",
+    "title": "The handsome",
+    "cover": "/images/uploads/26.0921-handsome-1140.jpg",
+    "images": [
+      "/images/uploads/26.0921-handsome-1407.jpg",
+      "/images/uploads/_talkf_djmcbk8lj46_9htkrtjk3kpt1mqphdocr0_f_6226b78ff05b.jpg"
+    ],
+    "credits": [
+      {
+        "role": "Creative Director",
+        "name": "Lee si wha"
+      },
+      {
+        "role": "Photographer",
+        "name": "Song kun do"
+      },
+      {
+        "role": "Hair",
+        "name": "Kwon do yoen"
+      },
+      {
+        "role": "Makeup",
+        "name": "Jeong Yun Mi"
+      },
+      {
+        "role": "Model",
+        "name": "Kang so young"
+      }
+    ],
+    "tags": [],
+    "instagram": ""
+  },
+  {
+    "id": "2026-09-30-erkhes-campaign",
+    "category": "Advertising",
+    "date": "2026. 10. 01",
+    "title": "Erkhes Campaign",
+    "cover": "/images/uploads/erkhes-editorial-logo-final0156.jpg",
+    "images": [
+      "/images/uploads/erkhes-editorial-nologo-final0106.jpg",
+      "/images/uploads/erkhes-main-nologo-02.jpg"
+    ],
+    "credits": [
+      {
+        "role": "Photographer",
+        "name": "Kim tae min"
+      },
+      {
+        "role": "Hair",
+        "name": "Kwon do yeon"
+      },
+      {
+        "role": "Makeup",
+        "name": "Jeong Yun Mi"
+      }
+    ],
+    "tags": [],
+    "instagram": ""
+  },
+  {
+    "id": "2026-09-30-style-h",
+    "category": "Editorial",
+    "date": "2026. 10. 01",
+    "title": "Style H",
+    "cover": "",
+    "images": [
+      "/images/uploads/img_8985.jpg",
+      "/images/uploads/img_8983.jpg",
+      "/images/uploads/img_8980.jpg"
+    ],
+    "credits": [
+      {
+        "role": "Magazine",
+        "name": "Style H"
+      },
+      {
+        "role": "Photographer",
+        "name": "Kim sun hye"
+      },
+      {
+        "role": "Fashion Editor",
+        "name": "Lee moon ji"
+      },
+      {
+        "role": "Hair",
+        "name": "Kwon do yeon"
+      },
+      {
+        "role": "Makeup",
+        "name": "Jeong Yun Mi"
+      },
+      {
+        "role": "Model",
+        "name": "Park ji hye"
+      }
+    ],
+    "tags": [],
+    "instagram": ""
+  },
+  {
     "id": "2025-11-10-allure-korea",
     "category": "Editorial",
-    "date": "2025. 11. 11",
-    "title": "allure korea",
+    "date": "2025. 06. 01",
+    "title": "Allure Korea",
     "cover": "/images/uploads/main-allure.jpg",
-    "images": [],
-    "credits": [],
+    "images": [
+      "/images/uploads/remix-me-myself3.jpg",
+      "/images/uploads/remix-me-myself5.jpg",
+      "/images/uploads/remix-me-myself1.jpg"
+    ],
+    "credits": [
+      {
+        "role": "Fashion Editor",
+        "name": "Choi jung yun"
+      },
+      {
+        "role": "Photographer",
+        "name": "Choi eun mi"
+      },
+      {
+        "role": "Hair",
+        "name": "Kwon do yeon"
+      },
+      {
+        "role": "Makeup",
+        "name": "Jeong yun mi"
+      },
+      {
+        "role": "Model",
+        "name": "Kaya"
+      }
+    ],
     "tags": [],
     "instagram": ""
   }

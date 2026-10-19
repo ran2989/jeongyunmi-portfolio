@@ -1,0 +1,10 @@
+/*
+ * Phone fixes for the Decap admin (pinned to decap-cms 3.17.1; the selectors
+ * match its component labels). Decap's editor has a fixed 800px minimum width,
+ * which on a phone pushes the 게시 button and the right half of every field
+ * off screen.
+ */
+@media (max-width: 799px) {
+  [class*="-EditorContainer"],
+  [class*="-ToolbarContainer"] { min-width: 0 !important; }
+}
