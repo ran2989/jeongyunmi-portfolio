@@ -1,0 +1,36 @@
+{
+  "draft": false,
+  "category": "Celebrity",
+  "credits": [
+    {
+      "role": "Photographer",
+      "name": ""
+    },
+    {
+      "role": "Stylist",
+      "name": ""
+    },
+    {
+      "role": "Hair",
+      "name": ""
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": ""
+    }
+  ],
+  "cover": "/images/uploads/315a3e2d-7939-4e0e-a82e-c609132d0286-261019-222417-d8ew.jpg",
+  "images": [
+    "/images/uploads/9e0757b5-784c-4146-837d-f9f8bc3f78e4-261019-222456-ow4q.jpg",
+    "/images/uploads/3f09ff6d-ac23-4f95-a800-d5147805bceb-261019-222513-fxxh.jpg",
+    "/images/uploads/5aa661ee-ac03-4e1d-a01c-b764c6f0661e-261019-222534-tvzc.jpg",
+    "/images/uploads/5c5dfcad-6713-4ada-88b1-10598529851b-261019-222547-qm6t.jpg",
+    "/images/uploads/4bcbec86-cb32-4585-a390-ea4235eeab95-261019-222559-9dpj.jpg"
+  ],
+  "title": "Nowz",
+  "date": "2026-09-01"
+}
