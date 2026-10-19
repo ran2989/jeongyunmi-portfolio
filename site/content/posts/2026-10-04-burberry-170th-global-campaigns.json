@@ -1,0 +1,32 @@
+{
+  "draft": false,
+  "category": "Advertising",
+  "credits": [
+    {
+      "role": "Photographer",
+      "name": "Jack day"
+    },
+    {
+      "role": "Stylist",
+      "name": "Tamara Rothstein"
+    },
+    {
+      "role": "Hair",
+      "name": "Park chang dae, Park eun bin"
+    },
+    {
+      "role": "Makeup",
+      "name": "Shim su young, Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/img_8455-261020-020705-yecd.jpg",
+  "title": "Burberry 170th global campaigns",
+  "images": [
+    "/images/uploads/img_8453-261020-020844-0rnl.jpg",
+    "/images/uploads/img_8457-261020-020859-pw07.jpg",
+    "/images/uploads/img_8451-261020-020911-x5v3.jpg",
+    "/images/uploads/img_8456-261020-020925-1z5y.jpg",
+    "/images/uploads/img_8468-261020-020935-o9yd.jpg"
+  ],
+  "date": "2026-10-05"
+}
