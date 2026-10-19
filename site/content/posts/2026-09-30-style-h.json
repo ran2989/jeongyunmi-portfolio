@@ -1,0 +1,37 @@
+{
+  "draft": false,
+  "category": "Editorial",
+  "credits": [
+    {
+      "role": "Magazine",
+      "name": "Style H"
+    },
+    {
+      "role": "Photographer",
+      "name": "Kim sun hye"
+    },
+    {
+      "role": "Fashion Editor",
+      "name": "Lee moon ji"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Park ji hye"
+    }
+  ],
+  "images": [
+    "/images/uploads/img_8985.jpg",
+    "/images/uploads/img_8983.jpg",
+    "/images/uploads/img_8980.jpg"
+  ],
+  "date": "2026-10-01",
+  "title": "Style H"
+}
