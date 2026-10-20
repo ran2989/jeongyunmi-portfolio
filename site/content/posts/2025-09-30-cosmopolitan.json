@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Editorial",
+  "credits": [
+    {
+      "role": "Fashion Editor",
+      "name": "Jeon so hee"
+    },
+    {
+      "role": "Photographer",
+      "name": "Yoon ji yong"
+    },
+    {
+      "role": "Hair",
+      "name": "Jang yun na"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "So ra"
+    }
+  ],
+  "cover": "/images/uploads/img_2936-261020-111853-yj9p.jpg",
+  "title": "Cosmopolitan",
+  "date": "2025-10-01",
+  "images": [
+    "/images/uploads/img_2943-261020-111950-vb8h.jpg",
+    "/images/uploads/img_2935-261020-112013-scnn.jpg"
+  ]
+}
