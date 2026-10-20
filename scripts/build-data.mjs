@@ -8,7 +8,7 @@ const root = path.join(path.dirname(new URL(import.meta.url).pathname), '..', 's
 const read = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 
 // Keep in step with the category options in site/admin/config.yml.
-const CATEGORIES = ['Editorial', 'Beauty', 'Celebrity', 'Advertising'];
+const CATEGORIES = ['Fashion', 'Beauty', 'Celebrity', 'Advertising'];
 
 const site = read(path.join(root, 'content/site.json'));
 // 포트폴리오 순서 from the admin: post ids (file names) in the order they should lead.

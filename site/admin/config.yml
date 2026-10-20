@@ -40,8 +40,8 @@ collections:
         name: category
         widget: select
         # Keep in step with CATEGORIES in scripts/build-data.mjs.
-        options: [Editorial, Beauty, Celebrity, Advertising]
-        default: Editorial
+        options: [Fashion, Beauty, Celebrity, Advertising]
+        default: Fashion
       - { label: 대표 사진 (목록에 보이는 커버), name: cover, widget: image, required: false, hint: "비워 두면 아래 사진 중 첫 장이 커버가 됩니다." }
       - label: 사진
         name: images
