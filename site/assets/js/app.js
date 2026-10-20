@@ -70,6 +70,17 @@
     } else {
       mail.remove();
     }
+    // wa.me wants the number with its country code and digits only; a Korean
+    // local number (010…) is turned into 8210….
+    const wa = $('[data-whatsapp]');
+    let waDigits = String(SITE.whatsapp || '').replace(/\D/g, '');
+    if (waDigits.startsWith('0')) waDigits = '82' + waDigits.slice(1);
+    if (waDigits.length >= 8) {
+      wa.href = 'https://wa.me/' + waDigits;
+      wa.textContent = 'WhatsApp ' + SITE.whatsapp;
+    } else {
+      wa.remove();
+    }
   }
 
   function renderPortfolio() {
