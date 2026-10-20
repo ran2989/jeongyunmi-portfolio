@@ -1,0 +1,29 @@
+{
+  "draft": false,
+  "category": "Beauty",
+  "credits": [
+    {
+      "role": "Photographer",
+      "name": "Kim dong june"
+    },
+    {
+      "role": "Hair",
+      "name": "Lee bong ju"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Kim ji hyun"
+    }
+  ],
+  "title": "Black",
+  "date": "2024-05-11",
+  "cover": "/images/uploads/3472588833539414348_20240605143439516-261020-112252-h3yu.jpg",
+  "images": [
+    "/images/uploads/3472588833539371340_20240605143440617-261020-112316-vyjw.jpg",
+    "/images/uploads/3472588833539414860_20240605143442858-261020-112332-5xn3.jpg"
+  ]
+}
