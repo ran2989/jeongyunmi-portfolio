@@ -1,0 +1,34 @@
+{
+  "draft": false,
+  "category": "Editorial",
+  "credits": [
+    {
+      "role": "Fashion Editor",
+      "name": "Kang ji hye"
+    },
+    {
+      "role": "Photographer",
+      "name": "Kang hyun in"
+    },
+    {
+      "role": "Hair",
+      "name": "Kang ji won"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Ziqi"
+    }
+  ],
+  "cover": "/images/uploads/img_9250-261021-143443-nzyo.jpg",
+  "images": [
+    "/images/uploads/img_8865-261021-143509-zfqm.jpg",
+    "/images/uploads/img_8873-261021-143530-klnj.jpg",
+    "/images/uploads/img_8871-261021-143548-jthq.jpg"
+  ],
+  "title": "Dazed korea",
+  "date": "2024-11-01"
+}
