@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Editorial",
+  "credits": [
+    {
+      "role": "Photographer",
+      "name": "Oh sung jae"
+    },
+    {
+      "role": "Fashion Editor",
+      "name": "Choi jung yun"
+    },
+    {
+      "role": "Hair",
+      "name": "Kim se young"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Wi geum young"
+    }
+  ],
+  "cover": "/images/uploads/photo-261021-142219-ma7s.jpg",
+  "images": [
+    "/images/uploads/photo-261021-142243-kyec.jpg",
+    "/images/uploads/photo-261021-142305-t0tr.jpg"
+  ],
+  "date": "2025-08-01",
+  "title": "Allure"
+}
