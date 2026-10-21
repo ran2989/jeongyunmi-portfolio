@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Fashion",
+  "credits": [
+    {
+      "role": "Fashion Editor",
+      "name": "Yoon dae yeon"
+    },
+    {
+      "role": "Photographer",
+      "name": "Ki won young"
+    },
+    {
+      "role": "Hair",
+      "name": "Shin do young"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Park jo an"
+    }
+  ],
+  "title": "Dazed korea",
+  "date": "2026-01-06",
+  "cover": "/images/uploads/img_5816-261022-004109-capp.jpg",
+  "images": [
+    "/images/uploads/img_5818-261022-004126-ie7g.jpg",
+    "/images/uploads/img_5819-261022-004139-dlw1.jpg"
+  ]
+}
