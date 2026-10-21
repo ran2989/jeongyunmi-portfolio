@@ -1,0 +1,34 @@
+{
+  "draft": false,
+  "category": "Editorial",
+  "credits": [
+    {
+      "role": "Magazine",
+      "name": "Maps"
+    },
+    {
+      "role": "Editor",
+      "name": "Oh min ji"
+    },
+    {
+      "role": "Photographer",
+      "name": "Jang jin wook"
+    },
+    {
+      "role": "Hair",
+      "name": "Jo so hee"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/02_0616-261021-141743-cmor.jpg",
+  "images": [
+    "/images/uploads/10_1269-261021-141810-ze3b.jpg",
+    "/images/uploads/01_0320-261021-141838-h1sx.jpg",
+    "/images/uploads/03_0881-261021-141859-esrv.jpg"
+  ],
+  "date": "2025-06-09",
+  "title": "Cosmosy"
+}
