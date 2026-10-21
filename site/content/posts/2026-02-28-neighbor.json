@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Editorial",
+  "credits": [
+    {
+      "role": "Photographer",
+      "name": "Lee so jung"
+    },
+    {
+      "role": "Fashion Editor",
+      "name": "Lee hye bin"
+    },
+    {
+      "role": "Hair",
+      "name": "Jang yun na"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Park se ra"
+    }
+  ],
+  "title": "Neighbor",
+  "date": "2026-03-01",
+  "cover": "/images/uploads/img_7653-261021-140406-ufea.jpg",
+  "images": [
+    "/images/uploads/img_7652-261021-140354-25au.jpg",
+    "/images/uploads/img_7661-261021-140432-o3q3.jpg"
+  ]
+}
