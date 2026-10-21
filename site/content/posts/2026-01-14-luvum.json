@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Advertising",
+  "credits": [
+    {
+      "role": "Creative Director",
+      "name": "Son mi hyun"
+    },
+    {
+      "role": "Photographer",
+      "name": "Oh a rang"
+    },
+    {
+      "role": "Stylist",
+      "name": "Lim ji hyun"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/img_6099-261021-140816-yee5.jpg",
+  "date": "2026-01-15",
+  "title": "Luvum",
+  "images": [
+    "/images/uploads/img_3100-261021-140859-undf.jpg",
+    "/images/uploads/img_6100-261021-140925-e7ej.jpg"
+  ]
+}
