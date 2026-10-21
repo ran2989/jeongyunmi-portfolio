@@ -1,0 +1,32 @@
+{
+  "draft": false,
+  "category": "Fashion",
+  "credits": [
+    {
+      "role": "Photographer",
+      "name": "Ju a ryoung"
+    },
+    {
+      "role": "Stylist",
+      "name": "Kim ki hyun"
+    },
+    {
+      "role": "Hair",
+      "name": "Ma jun ho"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Jang han na"
+    }
+  ],
+  "title": "Her",
+  "date": "2025-08-13",
+  "cover": "/images/uploads/pw01_0157-261022-003550-rdcv.jpg",
+  "images": [
+    "/images/uploads/pw01_0282-261022-003619-axy5.jpg"
+  ]
+}
