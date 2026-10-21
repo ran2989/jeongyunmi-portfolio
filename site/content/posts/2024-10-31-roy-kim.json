@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Celebrity",
+  "credits": [
+    {
+      "role": "Magazine",
+      "name": "Singles"
+    },
+    {
+      "role": "Editor",
+      "name": "Moon seung hee"
+    },
+    {
+      "role": "Photographer",
+      "name": "Oh jae kwang"
+    },
+    {
+      "role": "Stylist",
+      "name": "Lee han wook"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "title": "Roy Kim",
+  "date": "2024-11-01",
+  "cover": "/images/uploads/img_4892-261021-144055-74v4.jpg"
+}
