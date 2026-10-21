@@ -1,0 +1,25 @@
+{
+  "draft": false,
+  "category": "Beauty",
+  "credits": [
+    {
+      "role": "Photographer",
+      "name": "Lee jun kyung"
+    },
+    {
+      "role": "Beauty Editor",
+      "name": "Lee young jin"
+    },
+    {
+      "role": "Hair",
+      "name": "Jang yun na"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/img_4295-261021-142644-d17h.jpg",
+  "date": "2025-12-01",
+  "title": "Avenuel"
+}
