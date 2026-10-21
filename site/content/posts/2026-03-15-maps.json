@@ -1,0 +1,38 @@
+{
+  "draft": false,
+  "category": "Editorial",
+  "credits": [
+    {
+      "role": "Editor",
+      "name": "Oh min ji"
+    },
+    {
+      "role": "Photographer",
+      "name": "Kang ju wan"
+    },
+    {
+      "role": "Stylist",
+      "name": "Seo min woo"
+    },
+    {
+      "role": "Hair",
+      "name": "Lee bong ju"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "So ra"
+    }
+  ],
+  "cover": "/images/uploads/img_9086-261021-141153-9nzh.jpg",
+  "images": [
+    "/images/uploads/img_9088-261021-141210-ns68.jpg",
+    "/images/uploads/img_9092-261021-141227-vaeq.jpg",
+    "/images/uploads/img_9093-261021-141239-1024.jpg"
+  ],
+  "date": "2026-03-16",
+  "title": "Maps"
+}
