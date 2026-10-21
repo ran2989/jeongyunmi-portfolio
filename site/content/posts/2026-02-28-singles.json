@@ -1,0 +1,34 @@
+{
+  "draft": false,
+  "category": "Beauty",
+  "credits": [
+    {
+      "role": "Beauty Editor",
+      "name": "Lee yu jin"
+    },
+    {
+      "role": "Photographer",
+      "name": "Shin sun hye"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Ziqi"
+    }
+  ],
+  "cover": "/images/uploads/img_7775-261021-135857-1e0x.jpg",
+  "images": [
+    "/images/uploads/img_7773-261021-135924-xc94.jpg",
+    "/images/uploads/img_7771-261021-135940-ovqr.jpg",
+    "/images/uploads/img_7772-261021-135954-u6d8.jpg"
+  ],
+  "date": "2026-03-01",
+  "title": "Singles"
+}
