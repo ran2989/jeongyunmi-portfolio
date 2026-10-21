@@ -1,0 +1,32 @@
+{
+  "draft": false,
+  "category": "Celebrity",
+  "credits": [
+    {
+      "role": "Magazine",
+      "name": "Dazed korea"
+    },
+    {
+      "role": "Photographer",
+      "name": "Kim young jun"
+    },
+    {
+      "role": "Editor",
+      "name": "Keem hyo been"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/img_5476-261021-143219-4al7.jpg",
+  "images": [
+    "/images/uploads/img_5469-261021-143241-u47n.jpg"
+  ],
+  "title": "Kim shin rok",
+  "date": "2025-04-30"
+}
