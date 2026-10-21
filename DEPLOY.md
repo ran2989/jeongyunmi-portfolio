@@ -53,6 +53,11 @@ Netlify Deploys에 `Build blocked: Unrecognized Git contributor`가 뜨면, 비�
 급할 때는 저장소 주인 계정으로 아무 변경이나 하나 올리면, 그 배포에 그때까지의 게시물이 모두 반영됩니다.
 배포 1번에 크레딧 15가 듭니다.
 
+## 전체 내용 내보내기 (백업·이관)
+
+`node scripts/export-content.mjs` 를 실행하면 `export/` 폴더에 게시물·크레딧·사진 목록·사이트 설정이
+CSV(엑셀용)와 `portfolio.json`으로 만들어집니다. 사진 원본은 `site/images/uploads/`에 있습니다.
+
 ## 카테고리 바꾸기
 
 `site/admin/config.yml`의 `options`와 `scripts/build-data.mjs`의 `CATEGORIES`를 같이 고칩니다.

@@ -1,6 +1,9 @@
 [build]
   publish = "site"
   command = "node scripts/build-data.mjs"
+  # Skip the deploy (and its credits) when nothing the site is built from changed,
+  # e.g. edits to DEPLOY.md or the export script. Exit 0 = skip.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- site scripts/build-data.mjs netlify.toml"
 
 [build.environment]
   NODE_VERSION = "20"
