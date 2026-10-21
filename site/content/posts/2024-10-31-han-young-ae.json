@@ -1,0 +1,37 @@
+{
+  "draft": false,
+  "category": "Celebrity",
+  "credits": [
+    {
+      "role": "Editor",
+      "name": "Oh min ji"
+    },
+    {
+      "role": "Magazine",
+      "name": "Mpas"
+    },
+    {
+      "role": "Photographer",
+      "name": "Park ja wook"
+    },
+    {
+      "role": "Stylist",
+      "name": "Jun jin oh"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "title": "Han young ae",
+  "date": "2024-11-01",
+  "cover": "/images/uploads/img_7166-261021-143823-zyna.jpg",
+  "images": [
+    "/images/uploads/img_7181-261021-143844-t8nc.jpg",
+    "/images/uploads/img_7178-261021-143904-0qty.jpg"
+  ]
+}
