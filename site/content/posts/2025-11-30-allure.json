@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Beauty",
+  "credits": [
+    {
+      "role": "Beauty Editor",
+      "name": "Jo moon ju"
+    },
+    {
+      "role": "Photographer",
+      "name": "Choi moon hyuk"
+    },
+    {
+      "role": "Stylist",
+      "name": "Roh kyung eon"
+    },
+    {
+      "role": "Hair",
+      "name": "Lee bong ju"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "date": "2025-12-01",
+  "cover": "/images/uploads/img_4196-261021-142828-alng.jpg",
+  "images": [
+    "/images/uploads/img_4198-261021-142849-kiya.jpg",
+    "/images/uploads/img_4199-261021-142904-yofd.jpg"
+  ],
+  "title": "Allure"
+}
