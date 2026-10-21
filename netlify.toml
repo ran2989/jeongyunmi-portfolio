@@ -7,3 +7,10 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+# The admin page must load its current config.yml and scripts, not a cached
+# copy: an old copy kept offering the renamed "Editorial" category.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    Cache-Control = "no-cache"

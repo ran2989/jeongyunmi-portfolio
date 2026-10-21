@@ -9,6 +9,8 @@ const read = (p) => JSON.parse(fs.readFileSync(p, 'utf8'));
 
 // Keep in step with the category options in site/admin/config.yml.
 const CATEGORIES = ['Fashion', 'Beauty', 'Celebrity', 'Advertising'];
+// Old names still saved by an admin page loaded before a rename.
+const CATEGORY_ALIASES = { Editorial: 'Fashion' };
 
 const site = read(path.join(root, 'content/site.json'));
 // 포트폴리오 순서 from the admin: post ids (file names) in the order they should lead.
@@ -36,7 +38,7 @@ const posts = fs.readdirSync(postsDir)
     return {
       id: f.replace(/\.json$/, ''),
       sortKey: String(p.date || ''),
-      category: p.category || '',
+      category: CATEGORY_ALIASES[p.category] || p.category || '',
       date: fmtDate(p.date),
       title: p.title || '',
       cover: p.cover || '',
