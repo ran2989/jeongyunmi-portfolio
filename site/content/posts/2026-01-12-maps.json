@@ -1,0 +1,37 @@
+{
+  "draft": false,
+  "category": "Fashion",
+  "credits": [
+    {
+      "role": "Editor",
+      "name": "Oh min ji"
+    },
+    {
+      "role": "Photographer",
+      "name": "Kim young jin"
+    },
+    {
+      "role": "Stylist",
+      "name": "Jun jin oh"
+    },
+    {
+      "role": "Hair",
+      "name": "Jo so hee"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Seo hyun"
+    }
+  ],
+  "title": "Maps",
+  "date": "2026-01-13",
+  "cover": "/images/uploads/img_6023-261022-004347-v1ow.jpg",
+  "images": [
+    "/images/uploads/img_6022-261022-004400-km9w.jpg",
+    "/images/uploads/img_6024-261022-004413-dg4z.jpg"
+  ]
+}
