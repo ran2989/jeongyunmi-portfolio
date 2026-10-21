@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Fashion",
+  "credits": [
+    {
+      "role": "Photographer",
+      "name": "Ki won young"
+    },
+    {
+      "role": "Fashion Editor",
+      "name": "Keem hyo been"
+    },
+    {
+      "role": "Hair",
+      "name": "Shin do young"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Su a"
+    }
+  ],
+  "date": "2026-01-20",
+  "title": "Dazed",
+  "cover": "/images/uploads/img_6029-261022-004942-6ar0.jpg",
+  "images": [
+    "/images/uploads/img_6028-261022-005002-u8d9.jpg",
+    "/images/uploads/img_6026-261022-005014-ov07.jpg"
+  ]
+}
