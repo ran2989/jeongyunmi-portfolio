@@ -1,0 +1,38 @@
+{
+  "draft": false,
+  "category": "Beauty",
+  "credits": [
+    {
+      "name": "Jung du min",
+      "role": "Beauty Editor"
+    },
+    {
+      "role": "Photographer",
+      "name": "Yang joong san"
+    },
+    {
+      "role": "Stylist",
+      "name": "Ha eun seon"
+    },
+    {
+      "role": "Hair",
+      "name": "Jang yun na"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Sua"
+    }
+  ],
+  "date": "2026-11-02",
+  "title": "Singles",
+  "cover": "/images/uploads/img_0180-261102-023030-7tja.jpg",
+  "images": [
+    "/images/uploads/img_0183-261102-023056-h3vm.jpg",
+    "/images/uploads/img_0179-261102-023113-5cwg.jpg",
+    "/images/uploads/img_0184-261102-023125-zlx3.jpg"
+  ]
+}
