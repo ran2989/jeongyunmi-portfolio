@@ -1,0 +1,33 @@
+{
+  "draft": false,
+  "category": "Fashion",
+  "credits": [
+    {
+      "role": "Fashion Editor",
+      "name": "Choi jung yun"
+    },
+    {
+      "role": "Photographer",
+      "name": "Kim jae hoon"
+    },
+    {
+      "role": "Hair",
+      "name": "Lee enoc"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Jang han na"
+    }
+  ],
+  "date": "2025-09-03",
+  "title": "Allure",
+  "cover": "/images/uploads/photo-261103-142915-x77y.jpg",
+  "images": [
+    "/images/uploads/photo-261103-142935-nljq.jpg",
+    "/images/uploads/photo-261103-143012-66jm.jpg"
+  ]
+}
