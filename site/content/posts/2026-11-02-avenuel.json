@@ -1,0 +1,29 @@
+{
+  "draft": false,
+  "category": "Fashion",
+  "credits": [
+    {
+      "role": "Fashion Editor",
+      "name": "Pyo hye yeon"
+    },
+    {
+      "role": "Photographer",
+      "name": "Choi eun mi"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/ae0744_j1-261103-142437-vplf.jpg",
+  "images": [
+    "/images/uploads/ae1104_j1-261103-142457-80rb.jpg",
+    "/images/uploads/ae1246_j1-261103-142509-h1e4.jpg"
+  ],
+  "date": "2026-11-03",
+  "title": "Avenuel"
+}
