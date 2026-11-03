@@ -1,0 +1,36 @@
+{
+  "draft": false,
+  "category": "Fashion",
+  "credits": [
+    {
+      "role": "Creative Director",
+      "name": "Bang ho gwang"
+    },
+    {
+      "role": "Photographer",
+      "name": "Lee jun kyoung"
+    },
+    {
+      "role": "Fashion Editor",
+      "name": "Lee seung yeon"
+    },
+    {
+      "role": "Hair",
+      "name": "Lee enoc"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    },
+    {
+      "role": "Model",
+      "name": "Bae yoon young"
+    }
+  ],
+  "date": "2025-09-15",
+  "title": "Dazed",
+  "cover": "/images/uploads/img_1121-261103-143222-t151.jpg",
+  "images": [
+    "/images/uploads/img_1120-261103-143242-e9mo.jpg"
+  ]
+}
