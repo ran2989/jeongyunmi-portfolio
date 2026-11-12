@@ -1,0 +1,29 @@
+{
+  "draft": false,
+  "category": "Fashion",
+  "credits": [
+    {
+      "role": "Fashion Editor",
+      "name": "Lim ju won"
+    },
+    {
+      "role": "Photographer",
+      "name": "Jang ki pyeong"
+    },
+    {
+      "role": "Hair",
+      "name": "Kwon do yeon"
+    },
+    {
+      "role": "Makeup",
+      "name": "Jeong Yun Mi"
+    }
+  ],
+  "cover": "/images/uploads/img_0722-261112-153627-pnok.jpg",
+  "title": "Allure",
+  "date": "2026-11-02",
+  "images": [
+    "/images/uploads/img_0719-261112-153655-udjd.jpg",
+    "/images/uploads/img_0721-261112-153709-t526.jpg"
+  ]
+}
